@@ -1,18 +1,15 @@
-<p align="center">
-  <a href="https://aoi.js.org">
-    <img width="300" src="https://cdn.discordapp.com/attachments/804813961190572093/1013150967379808296/aoijs-v6.png" alt="aoijs">
-  </a>
-</p>
+---
+title: Welcome
+coverY: -4.149292149292149
+slug: /
+---
 
-<h1 align="center">aoi.j documentation</h1>
-
-<div align="center">
-
-**The most powerful string package to create a simple and fast Discord Bot.**
+![aoijs](https://cdn.discordapp.com/attachments/804813961190572093/1013150967379808296/aoijs-v6.png)
 
 [![NPM version][npm-image]][npm-url]
 [![AoiJS Server][aoijs-server]][aoijs-server-url]
 [![NPM downloads][download-image]][download-url]
+
 
 [npm-image]: http://img.shields.io/npm/v/aoi.js.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/aoi.js
@@ -21,9 +18,6 @@
 [aoijs-server]: https://img.shields.io/discord/773352845738115102?color=5865F2&logo=discord&logoColor=white
 [aoijs-server-url]: https://aoi.js.org/invite
 
-[Preview](https://aoi.js.org/docs/guides/setup)
-
-</div>
 
 ## Features
 
