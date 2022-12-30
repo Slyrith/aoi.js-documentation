@@ -1,0 +1,34 @@
+---
+title: $argsCheck
+description: $argsCheck will check the arguments of user typed and the required one, if requirements didn't meet, it will return an error message.
+id: argsCheck
+---
+
+## Usage
+
+```php
+$argsCheck[condition;errorMessage?]
+```
+
+## Parameters 
+
+
+| Field  | Type    | Description     | Required |
+|--------|---------|-----------------|----------|
+| condition | string  | condition to be made | yes      |
+| errorMessage? | string | error message if condition did not meet | no       |
+
+## Example(s)
+
+This returns: Greater than 2 arguments if condition met, else it will return an error message.
+
+```javascript
+bot.command({
+  name: "argscheck",
+  code: `
+  You have more than two arguments, nice!
+
+  $argsCheck[>2;You have less than two arguments!]
+  `
+});
+```

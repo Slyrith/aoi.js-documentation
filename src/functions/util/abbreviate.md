@@ -16,7 +16,7 @@ $abbreviate[num;dec?]
 | Field  | Type    | Description     | Required |
 |--------|---------|-----------------|----------|
 | num | integer  | number to abbreviate | yes      |
-| dec | integer | decimal between the abbreviate | no       |
+| dec? | integer | decimal between the abbreviate | no       |
 
 ## Example(s)
 
@@ -26,7 +26,7 @@ This returns: 20k
 bot.command({
   name: 'abbreviate',
   code: `
-  $abbreviate[20000;no]
+  $abbreviate[20000]
   `
 });
 ```
