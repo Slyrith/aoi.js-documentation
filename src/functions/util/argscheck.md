@@ -4,6 +4,8 @@ description: $argsCheck will check the arguments of user typed and the required 
 id: argsCheck
 ---
 
+`$argsCheck` will check the arguments of user typed and the required one, if requirements didn't meet, it will return an error message.
+
 ## Usage
 
 ```php

@@ -4,6 +4,8 @@ description: Short description of the function.
 id: function-name
 ---
 
+Explanation of the function and how does it work.
+
 ## Usage
 
 ```php

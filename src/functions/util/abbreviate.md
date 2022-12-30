@@ -1,8 +1,10 @@
 ---
 title: $abbreviate
-description: $abbreviate allowing you to abbreviate large numbers.
+description: $abbreviate will allow you to abbreviate large numbers.
 id: abbreviate
 ---
+
+`$abbreviate` wll allow you to abbreviate large numbers.
 
 ## Usage
 
