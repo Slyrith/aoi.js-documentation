@@ -19,8 +19,13 @@ $findRoles[query;limit?;type?;res?]
 |-----------|---------|----------------------------------------------------|----------|
 | query      | string  |  name of the role you want to find                            | yes      |
 | limit?     | number  |  the maximum amount of roles the bot will return         | no       |
-| type?        | string  |     ..             | no      |
-| res?        | string  |     ..                | no      |
+| type?        | string  |     type of the search query             | no      |
+| res?        | string  |   formatting for the output                | no      |
+
+### Parameters for the `res` argument
+* {position} -> returns the position
+* {id} -> returns the role ID
+* {username} -> returns the role name
 
 
 ## Example
