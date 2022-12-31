@@ -4,7 +4,7 @@ description: $abbreviate will allow you to abbreviate large numbers.
 id: abbreviate
 ---
 
-`$abbreviate` wll allow you to abbreviate large numbers.
+`$abbreviate` will allow you to abbreviate large numbers.
 
 ## Usage
 
@@ -22,7 +22,7 @@ $abbreviate[num;dec?]
 
 ## Example(s)
 
-This returns: 20k
+This returns: `20k`
 
 ```javascript
 bot.command({
@@ -33,7 +33,7 @@ bot.command({
 });
 ```
 
-This returns: 20.0k
+This returns: `20.0k`
 
 ```javascript
 bot.command({
