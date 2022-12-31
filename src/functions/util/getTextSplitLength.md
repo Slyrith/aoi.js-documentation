@@ -1,6 +1,6 @@
 ---
 title: $getTextSplitLength 
-description: will return the amount of split arguments in $textSplit
+description: $getTextSplitLength will return the amount of split arguments in $textSplit
 id: getTextSplitLength
 ---
 
