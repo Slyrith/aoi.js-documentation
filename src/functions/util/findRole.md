@@ -17,7 +17,7 @@ $findRole[roleResolver;guildID?]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| roleResolver      | string  | text you want to slice                             | yes      |
+| roleResolver      | string  | name of the role you want to find                             | yes      |
 | guildID?     | integer  | guild ID where the role is present in          | no       |
 
 
