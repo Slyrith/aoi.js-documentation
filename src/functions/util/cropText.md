@@ -24,13 +24,13 @@ $cropText[text;limit;start?]
 
 ## Example
 
-This will return `bye lol` and remove `hello and` from the given text:
+This will return `bye` and remove `hello and` from the given text:
 
 ```javascript
 bot.command({
   name: 'cropText',
   code: `
-$cropText[hello and bye lol;20;9]
+$cropText[hello and bye;20;9]
   `
 });
 ```
