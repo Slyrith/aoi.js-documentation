@@ -15,28 +15,27 @@ $fetch[method;query;...query]
 
 | Method     | Example    | Description                                        | Required |
 |------------|---------|----------------------------------------------------|----------|
-| message       | `$fetch[message;$messageID]` | text you want to slice                             | yes      |
-| channel      | `$fetch[channel;$channelID]`  | starting point where to slice the message          | no       |
-| user         | `$fetch[user;$authorID]`  | ending point where slicing ends                    | yes      |
-| invite         | `$fetch[invite;https://discord.gg/aoi-js-server-akarui-development-team-773352845738115102]`  | ending point where slicing ends                    | yes      |
-| webhook         | `$fetch[webhook geID]`  | ending point where slicing ends                    | yes      |
-| application         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
-| command         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
-| guildPreview         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
-| guildTemplate         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
-| premiumStickerPacks         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
-| sticker         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
-| guildCommand         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
-| default         | `$fetch[message;$messageID]`  | ending point where slicing ends                    | yes      |
+| message       | `$fetch[message;$messageID]` | Retrieve information about a message                             | yes      |
+| channel      | `$fetch[channel;$channelID]`  | Retrieve information about a channel         | no       |
+| user         | `$fetch[user;$authorID]`  | Retrieve information about an user                    | yes      |
+| invite         | `$fetch[invite;https://discord.gg/aoi-js-server-akarui-development-team-773352845738115102]`  | Retrieve information about an invite                    | yes      |
+| webhook         | `$fetch[webhook;webhookID]`  | Retrieve information about a webhook                    | yes      |
+| application         | `$fetch[application;$clientID]`  | Retrieve information about an application                    | yes      |
+| command         | `$fetch[command;application command ID]`  | Retrieve information about an application command                    | yes      |
+| guildPreview         | `$fetch[guildPreview;???]`  | Retrieve information about a guild preview                    | yes      |
+| guildTemplate         | `$fetch[guildTemplate;template ID]`  | Retrieve information about a guild template                    | yes      |
+| premiumStickerPacks         | `$fetch[premiumStickerPacks;$messageID]`  | ???                    | yes      |
+| sticker         | `$fetch[sticket;sticker ID]`  | Retrieve information about a sticker                     | yes      |
+| guildCommand         | `$fetch[guildCommand;???]`  | ???                    | yes      |
+| default         | `$fetch[message;option ID]`  | ???                    | yes      |
 
 ## Parameters 
 
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text you want to slice                             | yes      |
-| from?     | number  | starting point where to slice the message          | no       |
-| to        | number  | ending point where slicing ends                    | yes      |
+| method    | string  | method (listed below)                              | yes      |
+| query      string  | starting point where to slice the message          | yes      |
 
 
 ## Example
