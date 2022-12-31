@@ -1,7 +1,7 @@
 ---
 title: $emojiExists 
 description: $emojiExists will check if the given emoji exists.
-id: argsCheck
+id: emojiExists
 ---
 
 `$emojiExists` will check if the given emoji exists.
