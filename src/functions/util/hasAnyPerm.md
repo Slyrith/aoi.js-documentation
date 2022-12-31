@@ -21,21 +21,9 @@ $hasAnyPerm[guildID;userID;...perms]
 | userID    | integer | ID of the user          | no       |
 | perms     | string  | permissions needed                    | yes      |
 
+<details>
+  <summary> <h3> Discord API Permissions </h3></summary>
 
-## Example
-
-This will return `true` when the author has `manage messages` or `kick` permissions and return `false` when they don't have those:
-
-```javascript
-bot.command({
-  name: 'hasAnyPerm',
-  code: `
-  $hasAnyPerm[$guildID;$authorID;kick;managemessages]
-  `
-});
-```
-
-## Permissions
 | Permission         |                                                    |
 |--------------------|----------------------------------------------------|
 | createinvite         |              Permission to create guild invites                        |
@@ -80,3 +68,19 @@ bot.command({
 | sendmessageinthreads         |       Permission to send messages in threads                                             |
 | startembeddedactivities         |      Permission to start activities within voice channels                                              |
 | moderatemembers         |           Permission to timeout and remove timeouts from guild members                                         |
+
+</details>
+
+## Example
+
+This will return `true` when the author has `manage messages` or `kick` permissions and return `false` when they don't have those:
+
+```javascript
+bot.command({
+  name: 'hasAnyPerm',
+  code: `
+  $hasAnyPerm[$guildID;$authorID;kick;managemessages]
+  `
+});
+```
+
