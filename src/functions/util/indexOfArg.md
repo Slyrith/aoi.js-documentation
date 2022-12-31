@@ -4,12 +4,6 @@ description: $indexOfArg will return the index of the given query.
 id: indexOfArg
 ---
 
-<!-- not finished, missing example and correct usage -->
-<!-- not finished, missing example and correct usage -->
-<!-- not finished, missing example and correct usage -->
-<!-- not finished, missing example and correct usage -->
-
-
 `$indexOfArg` will return the index of the given query.
 
 ## Usage
@@ -29,13 +23,13 @@ $indexOfArg[string;query]
 
 ## Example
 
-???
+This will return `3` as `great` is the third argument in the query:
 
 ```javascript
 bot.command({
   name: 'indexOfArgs',
   code: `
-  $indexOfArgs[..]
+  $indexOfArgs[aoi.js is great for users who are new to Discord's API!;great]
   `
 });
 ```
