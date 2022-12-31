@@ -24,9 +24,9 @@ $formatDate[date;format?]
 
 | Format     | Output    |
 |-----------|---------|
-| dddd      | Monday, Tuesday, Wednesday ... |
-| dd     | Mon, Tue, Wed ...  |
-| DD     | Day of the month  |
+| dddd      | Returns the weekday, Monday, Tuesday, Wednesday ... |
+| dd     | Returns the abbreviation of the weekday, Mon, Tue, Wed ...  |
+| DD     | Returns the day of the month  |
 | DDD    | Returns the day of the year, 256, 257 ...  |
 | MMMM   | Returns the month fully January, February ...  |
 | MMM     | Returns the abbreviation of the month, Jan, Feb ...  |
