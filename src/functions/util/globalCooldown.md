@@ -11,7 +11,7 @@ id: globalCooldown
 ```php
 $globalCooldown[time;errorMessage?]
 ```
-* You are able to retrieve the remaining cooldown in the `$cooldown` function by using **`%time%`**.
+* You are able to retrieve the remaining cooldown in the `$globalCooldown` function by using **`%time%`**.
 
 ## Parameters 
 
