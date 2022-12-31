@@ -28,7 +28,7 @@ This will return `true` when the author has `manage messages` permissions and re
 
 ```javascript
 bot.command({
-  name: 'hasAnyPerm',
+  name: 'hasPerms',
   code: `
   $hasPerms[$guildID;$authorID;kick]
   `
