@@ -30,8 +30,8 @@ This will set a cooldown for a command which applies to the user only and return
 bot.command({
   name: 'cooldown',
   code: `
-hello
-$cooldown[2m;Please wait %time% to execute this command again.]
+  $cooldown[2m;Please wait %time% to execute this command again.]
+  hello
   `
 });
 ```
