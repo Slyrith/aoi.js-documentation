@@ -1,7 +1,7 @@
 ---
 title: $checkCondition 
 description: $checkCondition checks if a condition is either true or false.
-id: argsCheck
+id: checkCondition
 ---
 
 `$checkCondition` checks if a condition is either true or false.
