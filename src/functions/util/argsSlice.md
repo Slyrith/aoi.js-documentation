@@ -1,10 +1,10 @@
 ---
 title: $argsSlice 
-description: $argsSlice will slide multiple arguments depending on the given text.
-id: argsCheck
+description: $argsSlice will slice multiple arguments depending on the given text.
+id: argsSlice
 ---
 
-`$argsSlice` will slide multiple arguments depending on the given text.
+`$argsSlice` will slice multiple arguments depending on the given text.
 
 ## Usage
 
