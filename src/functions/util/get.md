@@ -27,8 +27,8 @@ This will return `Leref` from `$let`:
 bot.command({
   name: 'get',
   code: `
+Aoi.js developer: $get[developer]
 $let[developer;Leref]
-$get[developer]
 `
 });
 ```
