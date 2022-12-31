@@ -1,7 +1,7 @@
 ---
 title: $creationDate 
 description: $creationDate will return the creation date of the given Discord User.
-id: argsCheck
+id: creationDate
 ---
 
 `$creationDate` will return the creation date of the given Discord User.
