@@ -17,21 +17,21 @@ $findRoles[query;limit?;type?;res?]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| query      | string  |                              | yes      |
-| limit?     | number  |           | no       |
-| type?        | string  |                  | no      |
-| res?        | string  |                     | no      |
+| query      | string  |  name of the role you want to find                            | yes      |
+| limit?     | number  |  the maximum amount of roles the bot will return         | no       |
+| type?        | string  |     ..             | no      |
+| res?        | string  |     ..                | no      |
 
 
 ## Example
 
-This will return `Bye` and remove `Hello` from the given text:
+This will return all roles which are named `Owner`:
 
 ```javascript
 bot.command({
-  name: 'slice',
+  name: 'findRoles',
   code: `
-  $findRoles[query;limit?;type?;res?]
+  $findRoles[Owner;5;startsWith;{position}) {username}: {id}]
   `
 });
 ```
