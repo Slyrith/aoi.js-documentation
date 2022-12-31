@@ -28,7 +28,7 @@ This will return `false` as you're not banned in this guild:
 
 ```javascript
 bot.command({
-  name: 'slice',
+  name: 'isBanned',
   code: `
   $isBanned[$authorID;$authorID]
   `
