@@ -23,7 +23,7 @@ $emojiExists[emoji]
 
 ## Example
 
-This will return `true` as the <img src="https://cdn.discordapp.com/emojis/1003365344724910191.webp?size=96&quality=lossless" width="19"> emoji exists:
+This will return `true` as the ![emoji](https://cdn.discordapp.com/emojis/1003365344724910191.webp?size=16&quality=lossless) emoji exists:
 
 ```javascript
 bot.command({
