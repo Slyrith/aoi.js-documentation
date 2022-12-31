@@ -4,7 +4,7 @@ description: $charCount will count the given arguments.
 id: charCount
 ---
 
-`$charCount` will count the given arguments.
+`$charCount` will count the given text and return the amount of characters.
 
 ## Usage
 
