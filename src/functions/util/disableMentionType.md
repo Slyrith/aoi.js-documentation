@@ -17,9 +17,17 @@ $disableMentionType[type]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| type      | string  | "everyone", "users", "roles", "all"                | yes      |
+| type      | string  | type of mention you want to disable                | yes      |
 
-
+### Available types
+* everyone
+  * disables everyone/here mentions
+* users
+  * disables all user mentions
+* roles
+  * disables all role mentions
+* all
+  * disables all mentions stated above  
 ## Example(s)
 
 This will stop the bot from mentioning you:
