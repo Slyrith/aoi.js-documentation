@@ -9,17 +9,17 @@ id: channelCooldown
 ## Usage
 
 ```php
-$channelCooldown[time;error?]
+$channelCooldown[time;errorMessage?]
 ```
 * You are able to retrieve the remaining cooldown in the `$channelCooldown` function by using **`%time`**.
 
 ## Parameters 
 
 
-| Field     | Type    | Description                                                      | Required |
-|-----------|---------|------------------------------------------------------------------|----------|
-| time      | string  | timer of the cooldown                                            | yes      |
-| error?    | string  | error message when given cooldown timer is still active          | no       |
+| Field            | Type    | Description                                                      | Required |
+|------------------|---------|------------------------------------------------------------------|----------|
+| time             | string  | timer of the cooldown                                            | yes      |
+| errorMessage?    | string  | error message when given cooldown timer is still active          | no       |
 
 
 ## Example
@@ -28,7 +28,7 @@ This will set a cooldown for a command in the channel where the command was exec
 
 ```javascript
 bot.command({
-  name: 'slice',
+  name: 'channelCooldown',
   code: `
   hello
   $channelCooldown[2m;Please wait %time% to execute this command again.]
