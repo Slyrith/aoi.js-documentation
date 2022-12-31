@@ -14,7 +14,6 @@ $argsCheck[condition;errorMessage?]
 
 ## Parameters 
 
-
 | Field  | Type    | Description     | Required |
 |--------|---------|-----------------|----------|
 | condition | string  | condition to be made | yes      |
