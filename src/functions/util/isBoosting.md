@@ -1,6 +1,6 @@
 ---
 title: $isBoosting 
-description: $isBoosting will slide multiple arguments depending on the arguments.
+description: $isBoosting will check if the given user is boosting the given guild.
 id: isBoosting
 ---
 
@@ -9,7 +9,7 @@ id: isBoosting
 ## Usage
 
 ```php
-$isBoosting[text;from;to?]
+$isBoosting[userID?;guildID?]
 ```
 
 ## Parameters 
@@ -17,20 +17,20 @@ $isBoosting[text;from;to?]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text you want to slice                             | yes      |
-| from?     | number  | starting point where to slice the message          | no       |
-| to        | number  | ending point where slicing ends                    | yes      |
+| userID?      | integer  | user id to check if they're boosting                             | no      |
+| guildID?     | integer  | the guild id of where they boosted the server          | no       |
 
+### Please note that your bot has to be present in the server where you're going to check for an users boosting status.
 
 ## Example
 
-This will return `Bye` and remove `Hello` from the given text:
+This will return `false` or `true` depending on if you boosted this server:
 
 ```javascript
 bot.command({
   name: 'isBoosting',
   code: `
-  $isBoosting[Hello Bye;1;5]
+  $isBoosting[$authorID;$guildID]
   `
 });
 ```
