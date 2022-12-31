@@ -11,7 +11,7 @@ id: channelCooldown
 ```php
 $channelCooldown[time;errorMessage?]
 ```
-* You are able to retrieve the remaining cooldown in the `$channelCooldown` function by using **`%time`**.
+* You are able to retrieve the remaining cooldown in the `$channelCooldown` function by using **`%time%`**.
 
 ## Parameters 
 
