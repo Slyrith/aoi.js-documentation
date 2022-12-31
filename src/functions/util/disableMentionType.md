@@ -1,7 +1,7 @@
 ---
 title: $disableMentionType 
 description: $disableMentionType will disable a specific mention type.
-id: argsCheck
+id: disableMentionType
 ---
 
 `$disableMentionType` will disable a specific mention type.
@@ -36,8 +36,8 @@ This will stop the bot from mentioning you:
 bot.command({
   name: 'mention',
   code: `
-$disableMentionType[users] 
 <@$authorID>
+$disableMentionType[users] 
   `
 });
 ```
@@ -48,8 +48,8 @@ This will stop the bot from mentioning anyone or anything:
 bot.command({
   name: 'mention',
   code: `
-$disableMentionType[all] 
 <@$authorID>
+$disableMentionType[all] 
   `
 });
 ```
