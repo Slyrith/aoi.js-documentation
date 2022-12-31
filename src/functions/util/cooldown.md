@@ -4,7 +4,7 @@ description: $cooldown will set a cooldown for a command after being used.
 id: cooldown
 ---
 
-`$cooldown` will set a cooldown for a user after them using the command.
+`$cooldown` will set a user-based cooldown.
 
 ## Usage
 
