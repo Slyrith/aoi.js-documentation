@@ -28,8 +28,8 @@ This will return `Ayaka` from `$get`:
 bot.command({
   name: 'let',
   code: `
-$let[genius;Ayaka]
 $get[Ayaka]
+$let[genius;Ayaka]
 `
 });
 ```
