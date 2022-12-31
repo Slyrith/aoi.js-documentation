@@ -9,7 +9,7 @@ id: argsSlice
 ## Usage
 
 ```php
-$argsSlice[text;from;to?] 
+$argsSlice[text;from?;to] 
 ```
 
 ## Parameters 
