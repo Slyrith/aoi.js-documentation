@@ -21,21 +21,9 @@ $hasPermsInChannel[channelID;userorroleID;...perms]
 | userorroleID    | integer | ID of the user or role          | yes       |
 | perms     | string  | permissions needed                    | yes      |
 
+<details>
+  <summary> <h3> Discord API Permissions </h3></summary>
 
-## Example
-
-This will return `true` when the author has `send messages`permissions and return `false` when they don't have those:
-
-```javascript
-bot.command({
-  name: 'hasPermsInChannel',
-  code: `
-  $hasPermsInChannel[$channelID;$authorID;sendmessage]
-  `
-});
-```
-
-## Permissions
 | Permission         |                                                    |
 |--------------------|----------------------------------------------------|
 | createinvite         |              Permission to create guild invites                        |
@@ -80,3 +68,18 @@ bot.command({
 | sendmessageinthreads         |       Permission to send messages in threads                                             |
 | startembeddedactivities         |      Permission to start activities within voice channels                                              |
 | moderatemembers         |           Permission to timeout and remove timeouts from guild members                                         |
+
+</details>
+
+## Example
+
+This will return `true` when the author has `send messages`permissions and return `false` when they don't have those:
+
+```javascript
+bot.command({
+  name: 'hasPermsInChannel',
+  code: `
+  $hasPermsInChannel[$channelID;$authorID;sendmessage]
+  `
+});
+```
