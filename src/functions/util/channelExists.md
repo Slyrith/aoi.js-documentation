@@ -21,7 +21,7 @@ $channelExists[channel]
 
 ## Example
 
-This will check if a channel with the name `general` exists, alternative you could use the channel ID instead:
+This will check if a channel with the name `general` exists, alternatively you could use the channel ID instead:
 
 ```javascript
 bot.command({
