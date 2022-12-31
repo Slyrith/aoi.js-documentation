@@ -29,7 +29,7 @@ This will return `true` as `Leref` and/or `Ayaka` are present in the given text:
 bot.command({
   name: 'checkContains',
   code: `
-  $checkContains[Leref and Ayaka best couple ngl;Leref;Ayaka]
+  $checkContains[aoi.js is easy and simple to use for beginners;easy;simple]
   `
 });
 ```
