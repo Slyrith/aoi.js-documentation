@@ -1,10 +1,10 @@
 ---
 title: $cropText 
-description: $cropText will crop the given argument.
+description: $cropText will crop given text.
 id: cropText
 ---
 
-`$cropText` is used to crop arguments.
+`$cropText` is used to crop given text.
 
 ## Usage
 
