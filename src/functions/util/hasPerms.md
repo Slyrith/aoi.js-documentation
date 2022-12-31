@@ -24,7 +24,7 @@ $hasPerms[guildID;userID;...perms]
 
 ## Example
 
-This will return `true` when the author has `manage messages` permissions and return `false` when they don't have those:
+This will return `true` when the author has `kick` permissions and return `false` when they don't have those:
 
 ```javascript
 bot.command({
