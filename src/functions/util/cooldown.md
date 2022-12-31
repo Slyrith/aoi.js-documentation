@@ -18,7 +18,7 @@ $cooldown[time;errorMessage?]
 
 | Field             | Type    | Description                                                 | Required |
 |-------------------|---------|-------------------------------------------------------------|----------|
-| time              | string  | cooldown time for the command                               | yes      |
+| time              | string  | the duration of the cooldown                                | yes      |
 | errorMessage?     | number  | error message when there's remaining time for the cooldown  | no       |
 
 
