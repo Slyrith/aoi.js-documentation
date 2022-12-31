@@ -1,6 +1,6 @@
 ---
 title: $cooldown 
-description: $cooldown will set a cooldown for a command after being used.
+description: $cooldown will set a cooldown for the author of the command after being used.
 id: cooldown
 ---
 
@@ -11,7 +11,7 @@ id: cooldown
 ```php
 $cooldown[time;errorMessage?]
 ```
-* You are able to retrieve the remaining cooldown in the `$cooldown` function by using **`%time`**.
+* You are able to retrieve the remaining cooldown in the `$cooldown` function by using **`%time%`**.
 
 ## Parameters 
 
