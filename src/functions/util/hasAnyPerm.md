@@ -1,15 +1,15 @@
 ---
-title: $hasAnyPerms 
-description: $hasAnyPerms will check if the user has one of the required permission and executes the command if they do.
-id: hasAnyPerms
+title: $hasAnyPerm 
+description: $hasAnyPerm will check if the user has one of the required permission and executes the command if they do.
+id: hasAnyPerm
 ---
 
-`$hasAnyPerms` will check if the user has one of the required permission and executes the command if they do.
+`$hasAnyPerm` will check if the user has one of the required permission and executes the command if they do.
 
 ## Usage
 
 ```php
-$hasAnyPerms[guildID;userID;...perms]
+$hasAnyPerm[guildID;userID;...perms]
 ```
 
 ## Parameters 
@@ -24,13 +24,13 @@ $hasAnyPerms[guildID;userID;...perms]
 
 ## Example
 
-This will return `Hello` when the author has `manage messages` or `kick` permissions and return `Bye` when they don't have those:
+This will return `true` when the author has `manage messages` or `kick` permissions and return `false` when they don't have those:
 
 ```javascript
 bot.command({
-  name: 'slice',
+  name: 'hasAnyPerm',
   code: `
-  $hasAnyPerms[$guildID;$authorID;kick;managemessages]
+  $hasAnyPerm[$guildID;$authorID;kick;managemessages]
   `
 });
 ```
