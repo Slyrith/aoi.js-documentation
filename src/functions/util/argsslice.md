@@ -1,15 +1,15 @@
 ---
 title: $argsSlice 
-description: $argsSlice will slide multiple arguments depending on the arguments.
+description: $argsSlice will slide multiple arguments depending on the given text.
 id: argsCheck
 ---
 
-`$argsSlice` will slide multiple arguments depending on the arguments.
+`$argsSlice` will slide multiple arguments depending on the given text.
 
 ## Usage
 
 ```php
-$argsSlice[text;from;to?]
+$argsSlice[text;from;to?] 
 ```
 
 ## Parameters 
