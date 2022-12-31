@@ -15,20 +15,22 @@ $argsSlice[text;from;to?]
 ## Parameters 
 
 
-| Field         | Type    | Description                                                | Required |
-|---------------|---------|------------------------------------------------------------|----------|
-| text          | string  | text you want to slice                                     | yes      |
-| from sing  | error message when invalid mathematical notation are used  | no       |
+| Field     | Type    | Description                                        | Required |
+|-----------|---------|----------------------------------------------------|----------|
+| text      | string  | text you want to slice                             | yes      |
+| from?     | number  | starting point where to slice the message          | no       |
+| to        | number  | ending point where slicing ends                    | yes      |
+
 
 ## Example
 
-This will return `false` as 240 is greater than 200:
+This will return `Bye` and remove `Hello` from the given text:
 
 ```javascript
 bot.command({
-  name: 'checkCondition',
+  name: 'slice',
   code: `
-  $checkCondition[200>240]
+  $argsSlice[Hello Bye;1;5]
   `
 });
 ```
