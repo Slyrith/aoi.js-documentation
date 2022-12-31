@@ -14,19 +14,18 @@ $argsCheck[condition;errorMessage?]
 
 ## Parameters 
 
-
 | Field  | Type    | Description     | Required |
 |--------|---------|-----------------|----------|
 | condition | string  | condition to be made | yes      |
 | errorMessage? | string | error message if condition did not meet | no       |
 
-## Example(s)
+## Example
 
 This returns: Greater than 2 arguments if condition met, else it will return an error message.
 
 ```javascript
 bot.command({
-  name: "argscheck",
+  name: "argsCheck",
   code: `
   You have more than two arguments, nice!
 
