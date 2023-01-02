@@ -1,4 +1,8 @@
-# Sharding
+---
+title: Sharding
+description: Sharding Setup
+id: sharding
+---
 
 ## Introduction
 
