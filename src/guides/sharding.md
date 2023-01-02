@@ -6,7 +6,7 @@ id: sharding
 
 ## Introduction
 
-aoi.js has `ClientShard` class to handle `Sharding` for your discord bot.
+aoi.js has `ClientShard` class to handle `Sharding` for your Discord Bot.
 
 ## Usage
 
@@ -18,7 +18,7 @@ const sharder: ClientShard = new ClientShard(
 )
 ```
 
-### file
+### File Parameters
 
 <table>
   <tr>
@@ -57,14 +57,14 @@ const sharder: ClientShard = new ClientShard(
 | **_delay_**   | number           | delay for spawning each shard ( `in ms` )                                       | no       | 5500                      |
 | **_timeout_** | number           | The amount in milliseconds to wait until the `Bot` has become ready ( `in ms` ) | no       | 30000                     |
 
-## Basic Setup
+## Example
 
-in `index.js`
+This should be a new file, for example `shard.js`:
 
 ```js
 const { ClientShard } = require("aoi.js");
 
-const sharder = new ClientShard("./bot.js",{
+const sharder = new ClientShard("./index.js",{
   token : "DISCORD BOT TOKEN"
 });
 
@@ -72,7 +72,7 @@ const sharder = new ClientShard("./bot.js",{
 sharder.startProcess();
 ```
 
-in `bot.js`
+This is is your main file which is the source running your Discord Bot, it's typically your `index.js`:
 
 ```js
 const { Bot } = require("aoi.js");
@@ -94,6 +94,3 @@ bot.command({
     `,
 });
 ```
-
-### NOTE
-the ***`new index.js`*** is for ClientShard and ***`bot.js is old index.js`***
