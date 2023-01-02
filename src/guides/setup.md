@@ -1,9 +1,10 @@
 ---
-id: setup
 title: Setup
+description: Ready to begin using aoi.js, this is the basic setup you'll need to begin using aoi.js.
+id: setup
 ---
 
-### Installation
+## Installation
 
 **node.js 16.9.0 or newer is required.**
 
