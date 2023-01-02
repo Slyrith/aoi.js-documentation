@@ -75,7 +75,7 @@ const { Bot } = require("aoi.js");
 const bot = new Bot({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
-    intents: ["guilds", "guildMessages"],
+    intents: ["Guilds", "GuildMessages"],
 });
 
 bot.onMessage();
