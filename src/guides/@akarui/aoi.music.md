@@ -98,7 +98,7 @@ devOptions?: {
 <table>
   <tr>
     <th>Usage</th>
-    <td style="display:flex;flex-direction: row;justify-content:flex-start;align-items: flex-start;">$joinVc[<details><summary>voice/stage id</summary>Voice/Stage Channel ID</details>;<details><summary>selfDeaf?</summary>Whether the bot should deafen itself (default: yes)</details>;<details><summary>selfMute?</summary>Whether the bot should mute itself (default: no)</details>;<details><summary>speaker?</summary>Whether the bot should be speaker on stage channel (default: yes)</details>;<details><summary>debug?</summary>Whether to enable debug mode (default: no)</details>]</td>
+    <td style="display:flex;flex-direction: row;justify-content:flex-start;align-items: flex-start;width:100%;">$joinVc[<details><summary>voice/stage id</summary>Voice/Stage Channel ID</details>;<details><summary>selfDeaf?</summary>Whether the bot should deafen itself (default: yes)</details>;<details><summary>selfMute?</summary>Whether the bot should mute itself (default: no)</details>;<details><summary>speaker?</summary>Whether the bot should be speaker on stage channel (default: yes)</details>;<details><summary>debug?</summary>Whether to enable debug mode (default: no)</details>]</td>
   </tr>
   <tr>
     <th>Example</th>
