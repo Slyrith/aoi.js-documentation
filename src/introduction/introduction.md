@@ -1,5 +1,6 @@
 ---
-title: Welcome
+title: Introduction
+description: The beginning process of how to use aoi.js
 coverY: -4.149292149292149
 slug: /
 ---
