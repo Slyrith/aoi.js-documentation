@@ -12,11 +12,6 @@ id: akarui/aoi.music
 npm install @akarui/aoi.music
 ```
 
-```bash
-# for Edge
-npm install @akarui/aoi.music@dev
-# or
-npm install https://github.com/akaruidevelopment/music#main
 ```
 
 ## Example
