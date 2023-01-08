@@ -12,8 +12,6 @@ id: akarui/aoi.music
 npm install @akarui/aoi.music
 ```
 
-```
-
 ## Example
 
 ```javascript
