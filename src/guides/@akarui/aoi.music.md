@@ -1,6 +1,7 @@
 ---
-id: aoi.music-setup
-title: Aoi.Music
+title: akarui/aoi.music
+description: How to integrate aoi.music into your Discord Bot with ease.
+id: akarui/aoi.music
 ---
 
 ### Installation
