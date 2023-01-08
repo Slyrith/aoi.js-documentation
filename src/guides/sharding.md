@@ -1,6 +1,6 @@
 ---
 title: Sharding
-description: Sharding Setup
+description: How to intergate Sharding for your Discord Bot.
 id: sharding
 ---
 
