@@ -28,7 +28,7 @@ This will return `Ayaka` from `$get`:
 bot.command({
   name: 'let',
   code: `
-$get[Ayaka]
+$get[genius]
 $let[genius;Ayaka]
 `
 });
